@@ -4,7 +4,12 @@ For small projects that don't necessitate a framework solution, I often want to 
 
 ##Usage
 
+```bash
+npm install get-set
+```
+
 ```javascript
+var GetSet = require('get-set');
 
 //Define your constructor
 var MyModel = function() {};
