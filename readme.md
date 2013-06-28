@@ -18,19 +18,20 @@ MyModel.prototype...
 ##API
 
 ```javascript
-on(name, fn)
+.on(name, fn)
 ```
 
 ```javascript
-trigger(name, arg1, arg2 /* , ... */)
+.trigger(name, arg1, arg2 /* , ... */)
 ```
 
 ```javascript
-get(key)
+.get(key)
 ```
 
 ```javascript
-set(key,val);
-set(object); //Object of key-val pairs
+.set(key,val);
+//or
+.set(object); //Object of key-val pairs
 ```
 
