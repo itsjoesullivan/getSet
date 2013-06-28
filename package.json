@@ -1,0 +1,14 @@
+{
+  "name": "getSet",
+  "version": "0.0.0",
+  "description": "Set, get, on, trigger. My basic model toolkit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "readme.md",
+  "gitHead": "f00e9846835b438b54de97324970d70267d4f629"
+}
