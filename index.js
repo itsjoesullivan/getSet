@@ -1,4 +1,4 @@
-var Event = require('./lib/event')
+var Event = require('./lib/Event')
 
 var Set = module.exports = function() {}
 
