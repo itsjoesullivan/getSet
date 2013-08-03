@@ -1,6 +1,6 @@
-#getSet
+#get-set
 
-For small projects that don't necessitate a framework solution, I often want to reach into the backbone.js toolkit. getSet provides that minimal kit: events (on, trigger), get, and set.
+get(k) and set(k,v) properties of your object
 
 ##Usage
 
@@ -15,19 +15,6 @@ var GetSet = require('get-set');
 var MyModel = function() {};
 
 MyModel.prototpe = new GetSet();
-
-//Now define the rest of your model...
-MyModel.prototype...
-```
-
-##API
-
-```javascript
-.on(name, fn)
-```
-
-```javascript
-.trigger(name, arg1, arg2 /* , ... */)
 ```
 
 ```javascript
